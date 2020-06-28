@@ -1,24 +1,11 @@
-# README
+# FoodCarbonAPI
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Todo
 
-Things you may want to cover:
+* Setup basic api structure
 
-* Ruby version
+* add auth
 
-* System dependencies
+* add cors
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* add unit testing

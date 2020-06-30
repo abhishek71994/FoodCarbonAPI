@@ -1,12 +1,8 @@
 class V1::UsersController < ApplicationController
-
-  # def initialize
-  #   puts 'users shit'
-  # end
   
   def index
     @user = User.all
-    ::UsersSerializer.new(@user).as_json
+    render json: @user, each_serializer: UsersSerializer
   end
 
   def create
